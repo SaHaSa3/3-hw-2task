@@ -1,0 +1,29 @@
+.items {
+    position: relative;
+}
+
+.item {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.item:first-child {
+    background-color: #ff0048;
+    left: 0;
+    top: 0;
+
+}
+
+.item:nth-child(2) {
+    background-color: #000633;
+    left: 150px;
+    top: 150px;
+    z-index: 1;
+}
+
+.item:last-child {
+    background-color: #00ff77;
+    left: 300px;
+    top: 300px;
+}
